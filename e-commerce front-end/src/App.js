@@ -9,9 +9,7 @@ function App() {
     <div className="App">
       <FilterSort />
       <ProductPage />
-      {/* <Routes>
-        <Route path="/product" element={<ProductPage />}></Route>
-      </Routes> */}
+
     </div>
   );
 }
