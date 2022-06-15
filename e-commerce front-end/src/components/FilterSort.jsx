@@ -6,7 +6,7 @@ import {
   getProductDataFilterSort,
 } from "../redux/ProductReducer/ProductAction";
 import "./FilterSort.css";
-export const FilterSort = () => {
+export const FilSort = () => {
   const dispatch = useDispatch();
   const [searchParams, setSearchParams] = useSearchParams();
   const [query, setQuery] = useState();
@@ -82,16 +82,7 @@ export const FilterSort = () => {
       >
         Prve
       </button>
-      <button
-        onClick={() => {
-            searchParams.set(
-                "page",
-                `${1+ +searchParams.get("page")}`
-              );
-          setSearchParams(searchParams);
-          setQuery({ ...query, page: searchParams.get("page") });
-        }}
-      >
+      
         Next
       </button>
     </div>
