@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { addData, getProductData } from "../redux/ProductReducer/ProductAction";
 import { ProductCard } from "./ProductCard";
 
-export const ProductPage = () => {
+export const ProPage = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getProductData());
