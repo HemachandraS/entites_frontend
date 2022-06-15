@@ -1,8 +1,5 @@
 .filter-sort {
   position: sticky;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  padding: 10px;
-  top: 0px;
- 
-  background-color: white;
+  box-shadow: rgba(79, 89, 49, 3) 0px 6px 18px 0px;
+background-color: blue;
 }
